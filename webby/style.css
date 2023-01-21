@@ -1,17 +1,17 @@
 body {
-    background: rgb(125, 198, 205);
+    background: rgb(255, 166, 185);
     color: rgb(45, 45, 45);
     padding: 10px;
-    font-family: arial;
+    font-family: 'Courier New', Courier, monospace;
 }
 #all-contents {
   max-width: 800px;
-    margin: auto;
+    margin: 10px;
 }
 
 /* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
+    background: rgb(255, 101, 152);
    margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -19,7 +19,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(255, 247, 210);
     flex: 1;
     margin: 0;
 }
