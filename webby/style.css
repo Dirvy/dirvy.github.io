@@ -6,29 +6,31 @@ body {
 }
 #all-contents {
   max-width: 800px;
-    margin: 10px;
+    margin: auto;
 }
 
 /* navigation menu */
 nav {
     background: rgb(255, 101, 152);
-   margin: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
     display: flex;
     padding: 10px;
+    border-radius: 25% 10%;
 }
 h1 {
     display: flex;
     align-items: center;
     color: rgb(255, 247, 210);
     flex: 1;
-    margin: 10px;
+    margin: 0;
 }
 #nav-ul {
     list-style-image: none;
 }
 .nav-li {
     display: inline-block;
-    padding: 10px;
+    padding: 0 10px;
 }
 a {
     text-decoration: none;
@@ -58,5 +60,5 @@ main {
     padding: 8px;
 }
 h2, h3 {
-    margin: 10px;
+    margin: 0px;
 }
