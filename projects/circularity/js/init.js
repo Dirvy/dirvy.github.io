@@ -30,11 +30,9 @@ var circles = [];
             circles.push(circle);
         }
         // TODO 3 / 7 : Call the drawCircle() function 
-        drawCircle();
-        drawCircle();
-        drawCircle();
-        drawCircle();
-        drawCircle();
+        for (var loopsCompleted = 0; loopsCompleted < 100; loopsCompleted++){
+            drawCircle();
+        }
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
         ////////////////////////////////////////////////////////////
@@ -46,18 +44,15 @@ var circles = [];
         */
         function update() {
             // TODO 4 : Update the circle's position //
-            physikz.updatePosition(circles[0]);
-            physikz.updatePosition(circles[1]);
-            physikz.updatePosition(circles[2]);
-            physikz.updatePosition(circles[3]);
-            physikz.updatePosition(circles[4]);
+            for (var circ = 0; circ < 100; circ++){
+                physikz.updatePosition(circles[circ]);
+            }
+            
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-            game.checkCirclePosition(circles[0]);
-            game.checkCirclePosition(circles[1]);
-            game.checkCirclePosition(circles[2]);
-            game.checkCirclePosition(circles[3]);
-            game.checkCirclePosition(circles[4]);
-
+            for (var i = 0; i < 100; i++){
+                game.checkCirclePosition(circles[i]);
+            }
+            
             // TODO 9 : Iterate over the array
            
             
